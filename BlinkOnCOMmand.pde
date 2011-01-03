@@ -24,10 +24,10 @@ void loop() {
     // read the incoming byte:
     inByte = Serial.read();
     
-    if(inByte == byte('1')){
+    if(inByte == '1'){
       Serial.println("on");
       digitalWrite(13, HIGH);   // set the LED on
-    }else if(inByte == byte('0')){
+    }else if(inByte == '0'){
       Serial.println("off"); 
       digitalWrite(13, LOW);    // set the LED off
     }else{
