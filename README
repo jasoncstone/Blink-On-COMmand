@@ -1,6 +1,6 @@
 Blink-On-COMmand
 
-Load onto Arduino compadible device and launch serial montitor. Sending '0' or '1' will toggle the light on and off. NOTICE that we're using the charaters '0' and '1' not the numbers 0 and 1! Also, the first byte written to serial port is not always read in my testing. A general solution would be nice, othwise, I would just suggest writting some intialization bytes to the serial port before starting any serious business.
+Load onto Arduino compatible device and launch serial monitor. Sending '0' or '1' will toggle the light on and off. NOTICE that we're using the characters '0' and '1' not the numbers 0 and 1! Also, the first byte written to serial port is not always read in my testing. A general solution would be nice, otherwise, I would just suggest writing some initialization bytes to the serial port before starting any serious business.
 
 That's it :)
 jason.c.stone@gmail.com
