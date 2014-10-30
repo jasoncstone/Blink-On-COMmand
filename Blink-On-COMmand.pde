@@ -14,7 +14,7 @@ void setup() {
   Serial.begin(9600); // open the serial port  
   
   // Print some stuff to serial
-  Serial.println("0x8b4df00d");
+  Serial.println("dead1eaf");
 }
 
 void loop() {
