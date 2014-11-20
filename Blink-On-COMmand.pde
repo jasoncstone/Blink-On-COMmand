@@ -11,7 +11,9 @@ void setup() {
   // Pin 13 has an LED connected on most Arduino boards:
   pinMode(13, OUTPUT);
   
-  Serial.begin(9600); // open the serial port  
+  Serial.begin(9600); // open the serial port
+  // while the serial stream is not open, do nothing:
+  while (!Serial);
   
   // Print some stuff to serial
   Serial.println("dead1eaf");
